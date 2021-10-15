@@ -26,7 +26,7 @@ public class MyConfig {
             dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
             dataSource.setJdbcUrl("jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11443327?useSSL=false&serverTimezone=UTC");
             dataSource.setUser("sql11443327");
-            dataSource.setPassword("MfUG7t6uF4");
+            dataSource.setPassword("password");
         } catch (PropertyVetoException e) {
             e.printStackTrace();
         }
